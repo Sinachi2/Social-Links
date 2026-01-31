@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Social Links Profile | Jessica Randall</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: hsl(0, 0%, 8%);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: hsl(0, 0%, 12%);
+      border-radius: 15px;
+      padding: 30px 25px;
+      max-width: 350px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .card img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 2px solid hsl(75, 94%, 57%);
+    }
+
+    .name {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .location {
+      font-size: 14px;
+      color: hsl(75, 94%, 57%);
+      margin-top: 5px;
+    }
+
+    .bio {
+      font-size: 14px;
+      color: hsl(0, 0%, 80%);
+      margin: 20px 0;
+    }
+
+    .links a {
+      display: block;
+      background-color: hsl(0, 0%, 20%);
+      color: white;
+      text-decoration: none;
+      padding: 12px;
+      border-radius: 10px;
+      margin: 10px 0;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 20px;
+      color: hsl(0, 0%, 60%);
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall" />
+    <div class="name">Jessica Randall</div>
+    <div class="location">London, United Kingdom</div>
+    <div class="bio">"Front-end developer and avid reader."</div>
+    
+    <div class="links">
+      <a href="#">GitHub</a>
+      <a href="#">Frontend Mentor</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sinachi Franklin Ezeonyeka</a>.
+  </div>
+
+</body>
+</html>
